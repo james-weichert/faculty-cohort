@@ -34,3 +34,10 @@ Recent breakthroughs in AI models have been made possible by increases in the ab
 * **Perspectives from UW:** Brendan Sheehan, “[Questions arise surrounding the environmental impact of generative AI](https://www.dailyuw.com/article/32a375dc-8b6a-11ef-806a-7fe3e39b7dbc)” (The Daily); Abigail Meyers, “[Artificial intelligence: climate solution or climate catastrophe?](https://www.dailyuw.com/article/a9cb28d6-1215-4961-88df-bf449c466f76)” (The Daily) 
 
 ## CS Education
+
+
+
+### Opportunities
+* Become a [CSE TA](https://www.cs.washington.edu/academics/teaching-assistants/)!
+* CSE 590E (CS Education) Seminar — Open (by request) to CSE undergraduates interested in learning more about CS education research
+* Interested in a teaching career? talk to a CSE teaching professor!
