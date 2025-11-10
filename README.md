@@ -1,2 +1,36 @@
-# faculty-cohort
-James Weichert's Faculty Cohort Resources
+# Faculty Cohort 25au
+
+## Social Impacts of AI
+[Adapted from CSE 121 25au]
+
+The wider availability and wider use of AI systems (from large language models like ChatGPT to self-driving cars) have made positive as well as negative impacts of this emerging technology more apparent. The articles below represent multiple perspectives and highlight the diverse ways in which AI can affect the world around us, especially when it comes to education, work, privacy, and the environment.
+
+### AI and Education
+As students in the ‘age of AI’, you are likely well aware of the ways in which AI tools are becoming embedded in educational settings. Powerful (and increasingly freely available) AI tools challenge conventional expectations around learning, academic honesty, and collaboration. At the same time, these tools can play key roles as drivers for [research](https://www.cs.washington.edu/research/artificial-intelligence/) and academic productivity. In fact, autograders—a rudimentary form of AI—have long helped computer science courses to manage assignment grading at scale.
+
+* The idea of “productive struggle” as necessary for effective learning in STEM fields was formalized in the early 2010s and has shaped philosophies around college computing education. In a [blog article](https://ai.stanford.edu/blog/teaching/), Stanford AI researchers Rose E. Wang and Megha Srivastava explore how well the notion of productive struggle can withstand (or adapt to) the age of AI.
+* Beyond students, AI tools may also allow instructors to augment or streamline their teaching. The UW Center for Teaching and Learning [provides faculty with suggestions for using AI](https://teaching.washington.edu/course-design/ai/); these include drafting learning outcomes, brainstorming assessment ideas, or analyzing student feedback.
+* **Perspectives from UW:** Sophie Knight, “[AI: a rising force in higher education](https://www.dailyuw.com/article/7ef8ecb4-10db-11ef-9b92-7f4c5fbe89ea)” (_The Daily_); Jintae Cho, “[Why bother writing in the age of AI?](https://www.dailyuw.com/article/e03141da-901f-11ee-9d2e-5f06b22ce211)” (_The Daily_)
+
+### AI and Work
+State-of-the-art AI models enable the automation of a variety of workplace tasks, from [car assembly](https://www.bloomberg.com/news/newsletters/2024-09-20/ai-empowered-robots-are-learning-to-build-cars-in-efficiency-push) to [customer service](https://abcnews.go.com/Technology/wireStory/ai-shakes-call-center-industry-tasks-left-humans-125336705) to [software development](https://www.nytimes.com/2025/07/07/business/ai-job-cuts.html?unlocked_article_code=1.nU8.UEOb.16LDJHY-5DF9&smid=url-share). These automations could increase worker productivity and enable a company to scale with fewer resources, but could also result in layoffs and fewer job opportunities as companies can do more with less. The tech industry is at the forefront of integrating AI into the workplace, but will its workforce also be the one of the first casualties of AI automation?
+
+* As detailed in [this _New York Times_ article](https://www.nytimes.com/2025/05/25/business/amazon-ai-coders.html?unlocked_article_code=1.nU8._xnd.LYfPr5q0UmUO&smid=url-share) by Noam Scheiber from May 2025, tech companies like Amazon, Google, and Microsoft now encourage or expect their software developers to use internal AI models in their programming workflow.
+* But what if full automation is not desirable? In an [article for _NBC News_](https://www.nbcnews.com/tech/tech-news/humans-hired-to-fix-ai-slop-rcna225969), Angela Yang describes an emerging market for developers, graphic designers, and other professionals who specialize in cleaning up “AI slop”, including buggy “vibe-coded” applications.
+* **Perspectives from UW:** So et al., “[The Cruel Optimism of Tech Work](https://dl.acm.org/doi/10.1145/3706598.3713434)” (UW HCDE)
+
+### AI and Privacy
+Large language models (LLMs) like GPT, Gemini, or Claude require both large amounts of data and large amounts of computing power to function effectively. While buying additional servers takes care of computing power, the data required to improve the LLM’s ‘conversational abilities’ is harder to come by. AI developers use the internet and actual user-chatbot interactions to fill this need. Yet there is often little transparency regarding the extent to which _your_ chat history is accessible to the model, a tech company, or even other users.
+
+* In [this article](https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/), _Wired_ writers Matt Burgess and Reece Rogers detail the ways in which AI companies construct digital dragnets to gather training data, and how these companies make it difficult for users to agree or disagree to this process. 
+* LLMs can facilitate data breaches when hackers use the model to bypass security features or expose data from other users. Last year, [security researchers identified](https://promptarmor.substack.com/p/slack-ai-data-exfiltration-from-private) a vulnerability in the workplace message platform Slack that allowed attackers to reveal chats from private messaging channels.
+* **Perspectives from UW:** Luke Whittleton, “[Online data privacy: Student perspectives at UW](https://www.dailyuw.com/article/cc3eced5-dc6f-4304-b692-9223be0f90da)” (_The Daily_); Chaitna Deshmukh, “[Google: Helping students, or exploiting them?](https://www.dailyuw.com/article/37967668-94d3-11ee-8229-cbb08d2f851a)” (_The Daily_)
+
+### AI and the Environment
+Recent breakthroughs in AI models have been made possible by increases in the ability of computers to process data. State-of-the-art models can consist of more than a trillion parameters (i.e. variables) and in total require millions of hours of GPU (high-performance computers) processing time to train [[1](https://arxiv.org/abs/2211.02001)]. This in turn requires large datacenters using large amounts of energy and large amounts of water for cooling. The environmental impact of this electricity and water demand can be both difficult to recognize and difficult to accurately measure.
+
+* In their [recently-released paper](https://arxiv.org/abs/2505.09598v4) (not yet peer reviewed), Jegham et al. estimate that the annual carbon footprint of OpenAI’s GPT-4o model is equivalent to 2,300 transatlantic flights between Boston and London, while the model’s cooling demands remove an estimated equivalent of 500 Olympic-sized swimming pools in water from the local water cycle.
+* Pollution from AI data centers can have direct impacts on the local environment. The impacts of environmental pollution in the US are often disproportionately shouldered by people of color. The xAI data center in a predominantly Black South Memphis neighborhood uses gas turbines which produce air pollution, [leading the NAACP to threaten a lawsuit](https://naacp.org/articles/elon-musks-xai-threatened-lawsuit-over-air-pollution-memphis-data-center-filed-behalf) against X CEO Elon Musk.
+* **Perspectives from UW:** Brendan Sheehan, “[Questions arise surrounding the environmental impact of generative AI](https://www.dailyuw.com/article/32a375dc-8b6a-11ef-806a-7fe3e39b7dbc)” (The Daily); Abigail Meyers, “[Artificial intelligence: climate solution or climate catastrophe?](https://www.dailyuw.com/article/a9cb28d6-1215-4961-88df-bf449c466f76)” (The Daily) 
+
+## CS Education
